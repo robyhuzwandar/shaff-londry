@@ -1,7 +1,6 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native' 
 import DrawerButton from '../component/DrawerButton';
-import TextField from '../component/TextField';
 
 export default class HomeScreen extends React.Component {
   render(){
@@ -10,7 +9,6 @@ export default class HomeScreen extends React.Component {
         <DrawerButton navigation={this.props.navigation}/>
         <View style={styles.container}>
           <Text>Home</Text>
-          <TextField/>
         </View>
       </View>
     )
